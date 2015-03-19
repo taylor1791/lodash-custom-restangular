@@ -1,0 +1,28 @@
+{
+  "name": "lodash-custom-restangular",
+  "version": "0.0.1",
+  "description": "a custom build of lodash with only the dependencies for restangular",
+  "main": "lodash.custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/lodash-cli/bin/lodash include=contains,isUndefined,defaults,isArray,each,extend,find,has,initial,last,isNull,isBoolean,keys,isEmpty,reduce,bind"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylor1791/lodash-custom-restangular"
+  },
+  "keywords": [
+    "lodash",
+    "custom",
+    "restangular"
+  ],
+  "author": "Everding.Taylor@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylor1791/lodash-custom-restangular/issues"
+  },
+  "homepage": "https://github.com/taylor1791/lodash-custom-restangular",
+  "dependencies": {
+    "lodash-cli": "^3.5.0"
+  }
+}
