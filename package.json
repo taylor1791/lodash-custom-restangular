@@ -1,12 +1,12 @@
 {
   "name": "lodash-custom-restangular",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a custom build of lodash with only the dependencies for restangular",
   "main": "lodash.custom.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lodash-list": "cat node_modules/restangular/dist/restangular.js | grep -o _\\\\.[[:alpha:]]* | sort -u",
-    "postinstall": "./node_modules/lodash-cli/bin/lodash include=bind,contains,defaults,each,extend,find,has,initial,isArray,isBoolean,isEmpty,isNull,isNumber,isObject,isUndefined,keys,last,map,omit,pick,reduce,union,values"
+    "postinstall": "node ./node_modules/lodash-cli/bin/lodash include=bind,contains,defaults,each,extend,find,has,initial,isArray,isBoolean,isEmpty,isNull,isNumber,isObject,isUndefined,keys,last,map,omit,pick,reduce,union,values"
   },
   "repository": {
     "type": "git",
