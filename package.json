@@ -1,6 +1,6 @@
 {
   "name": "lodash-custom-restangular",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a custom build of lodash with only the dependencies for restangular",
   "main": "lodash.custom.js",
   "scripts": {
